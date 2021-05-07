@@ -89,6 +89,7 @@
 		2CDA68382525BCE800835AB1 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA682C2525BCE800835AB1 /* DDXMLDocument.m */; };
 		2CDA68392525BCE800835AB1 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA68322525BCE800835AB1 /* NSString+DDXML.m */; };
 		2CDA683B2525BEBD00835AB1 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDA680F2525BC7B00835AB1 /* libxml2.tbd */; };
+		2CDA683D2526DE9000835AB1 /* NSURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA683C2526DE9000835AB1 /* NSURLSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -212,6 +213,7 @@
 		2CDA68312525BCE800835AB1 /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
 		2CDA68322525BCE800835AB1 /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
 		2CDA68342525BCE800835AB1 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		2CDA683C2526DE9000835AB1 /* NSURLSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSession.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +275,7 @@
 			children = (
 				2CDA677C2525B93D00835AB1 /* Tests.m */,
 				2CDA677E2525B93D00835AB1 /* Info.plist */,
+				2CDA683C2526DE9000835AB1 /* NSURLSession.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -280,72 +283,72 @@
 		2CDA67852525BC1300835AB1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2CDA67862525BC1300835AB1 /* ScAnimatedSwapView.h */,
-				2CDA67872525BC1300835AB1 /* ScXmlApi.h */,
-				2CDA67882525BC1300835AB1 /* ScRemainingTimeCulc.h */,
-				2CDA67892525BC1300835AB1 /* UIBarButtonItem+ScCustomImage.m */,
-				2CDA678A2525BC1300835AB1 /* ScDbRecord.h */,
-				2CDA678B2525BC1300835AB1 /* NSURL+ScURLUtil.m */,
-				2CDA678C2525BC1300835AB1 /* ScHttp.h */,
-				2CDA678D2525BC1300835AB1 /* ScDbResultSet.m */,
-				2CDA678E2525BC1300835AB1 /* ScUtil.m */,
-				2CDA678F2525BC1300835AB1 /* NSObject+ScRetainCount.m */,
-				2CDA67902525BC1300835AB1 /* ScLog.m */,
-				2CDA67912525BC1300835AB1 /* ScPagePath.h */,
-				2CDA67922525BC1300835AB1 /* ScBenchmark.h */,
-				2CDA67932525BC1300835AB1 /* UIView+ScViewUtil.h */,
-				2CDA67942525BC1300835AB1 /* NSString+ScStringUtil.m */,
-				2CDA67952525BC1300835AB1 /* UIApplication+ScDimensions.h */,
-				2CDA67962525BC1300835AB1 /* ScEachDifferedCellTableViewController.m */,
-				2CDA67972525BC1300835AB1 /* ScPasswordTextFieldView.m */,
-				2CDA67982525BC1300835AB1 /* ScTapGestureRecognizer.h */,
-				2CDA67992525BC1300835AB1 /* ScHttpXml.m */,
-				2CDA679A2525BC1300835AB1 /* ScPaddingLabel.m */,
-				2CDA679B2525BC1300835AB1 /* NSData+ScDataShortDescription.m */,
-				2CDA679C2525BC1300835AB1 /* ScDb.h */,
-				2CDA679D2525BC1300835AB1 /* UIColor+ScHexString.m */,
-				2CDA679E2525BC1300835AB1 /* ScTreeHolder.m */,
-				2CDA679F2525BC1300835AB1 /* ScXmlApiHandler.h */,
-				2CDA67A02525BC1300835AB1 /* ScNibCustomCell.m */,
-				2CDA67A12525BC1300835AB1 /* UIBarButtonItem+ScBarButtonUtil.m */,
-				2CDA67A22525BC1300835AB1 /* UIImage+ScUtil.h */,
-				2CDA67A32525BC1300835AB1 /* ScFileUtil.m */,
-				2CDA67A42525BC1300835AB1 /* ScSystemVersion.h */,
-				2CDA67A52525BC1300835AB1 /* ScDbQuery.m */,
-				2CDA67A62525BC1300835AB1 /* ScColor.m */,
-				2CDA67A72525BC1300835AB1 /* ScLog.h */,
-				2CDA67A82525BC1300835AB1 /* ScPagePath.m */,
-				2CDA67A92525BC1300835AB1 /* NSObject+ScRetainCount.h */,
-				2CDA67AA2525BC1300835AB1 /* ScDbResultSet.h */,
-				2CDA67AB2525BC1300835AB1 /* ScUtil.h */,
-				2CDA67AC2525BC1300835AB1 /* ScDbRecord.m */,
-				2CDA67AD2525BC1300835AB1 /* NSURL+ScURLUtil.h */,
-				2CDA67AE2525BC1300835AB1 /* ScHttp.m */,
-				2CDA67AF2525BC1300835AB1 /* ScSystem.h */,
-				2CDA67B02525BC1300835AB1 /* ScRemainingTimeCulc.m */,
-				2CDA67B12525BC1300835AB1 /* UIBarButtonItem+ScCustomImage.h */,
-				2CDA67B22525BC1300835AB1 /* ScXmlApi.m */,
-				2CDA67B32525BC1300835AB1 /* ScAnimatedSwapView.m */,
-				2CDA67B42525BC1300835AB1 /* ScPaddingLabel.h */,
-				2CDA67B52525BC1300835AB1 /* ScHttpXml.h */,
-				2CDA67B62525BC1300835AB1 /* ScTapGestureRecognizer.m */,
-				2CDA67B72525BC1300835AB1 /* ScPasswordTextFieldView.h */,
-				2CDA67B82525BC1300835AB1 /* UIApplication+ScDimensions.m */,
-				2CDA67B92525BC1300835AB1 /* ScEachDifferedCellTableViewController.h */,
-				2CDA67BA2525BC1300835AB1 /* NSString+ScStringUtil.h */,
-				2CDA67BB2525BC1300835AB1 /* UIView+ScViewUtil.m */,
-				2CDA67BC2525BC1300835AB1 /* ScBenchmark.m */,
-				2CDA67BD2525BC1300835AB1 /* UIBarButtonItem+ScBarButtonUtil.h */,
-				2CDA67BE2525BC1300835AB1 /* ScNibCustomCell.h */,
-				2CDA67BF2525BC1300835AB1 /* ScXmlApiHandler.m */,
-				2CDA67C02525BC1300835AB1 /* ScTreeHolder.h */,
-				2CDA67C12525BC1300835AB1 /* UIColor+ScHexString.h */,
-				2CDA67C22525BC1300835AB1 /* ScDb.m */,
 				2CDA67C32525BC1300835AB1 /* NSData+ScDataShortDescription.h */,
+				2CDA679B2525BC1300835AB1 /* NSData+ScDataShortDescription.m */,
+				2CDA67A92525BC1300835AB1 /* NSObject+ScRetainCount.h */,
+				2CDA678F2525BC1300835AB1 /* NSObject+ScRetainCount.m */,
+				2CDA67BA2525BC1300835AB1 /* NSString+ScStringUtil.h */,
+				2CDA67942525BC1300835AB1 /* NSString+ScStringUtil.m */,
+				2CDA67AD2525BC1300835AB1 /* NSURL+ScURLUtil.h */,
+				2CDA678B2525BC1300835AB1 /* NSURL+ScURLUtil.m */,
+				2CDA67862525BC1300835AB1 /* ScAnimatedSwapView.h */,
+				2CDA67B32525BC1300835AB1 /* ScAnimatedSwapView.m */,
+				2CDA67922525BC1300835AB1 /* ScBenchmark.h */,
+				2CDA67BC2525BC1300835AB1 /* ScBenchmark.m */,
 				2CDA67C42525BC1300835AB1 /* ScColor.h */,
+				2CDA67A62525BC1300835AB1 /* ScColor.m */,
+				2CDA679C2525BC1300835AB1 /* ScDb.h */,
+				2CDA67C22525BC1300835AB1 /* ScDb.m */,
 				2CDA67C52525BC1300835AB1 /* ScDbQuery.h */,
+				2CDA67A52525BC1300835AB1 /* ScDbQuery.m */,
+				2CDA678A2525BC1300835AB1 /* ScDbRecord.h */,
+				2CDA67AC2525BC1300835AB1 /* ScDbRecord.m */,
+				2CDA67AA2525BC1300835AB1 /* ScDbResultSet.h */,
+				2CDA678D2525BC1300835AB1 /* ScDbResultSet.m */,
+				2CDA67B92525BC1300835AB1 /* ScEachDifferedCellTableViewController.h */,
+				2CDA67962525BC1300835AB1 /* ScEachDifferedCellTableViewController.m */,
 				2CDA67C62525BC1300835AB1 /* ScFileUtil.h */,
+				2CDA67A32525BC1300835AB1 /* ScFileUtil.m */,
+				2CDA678C2525BC1300835AB1 /* ScHttp.h */,
+				2CDA67AE2525BC1300835AB1 /* ScHttp.m */,
+				2CDA67B52525BC1300835AB1 /* ScHttpXml.h */,
+				2CDA67992525BC1300835AB1 /* ScHttpXml.m */,
+				2CDA67A72525BC1300835AB1 /* ScLog.h */,
+				2CDA67902525BC1300835AB1 /* ScLog.m */,
+				2CDA67BE2525BC1300835AB1 /* ScNibCustomCell.h */,
+				2CDA67A02525BC1300835AB1 /* ScNibCustomCell.m */,
+				2CDA67B42525BC1300835AB1 /* ScPaddingLabel.h */,
+				2CDA679A2525BC1300835AB1 /* ScPaddingLabel.m */,
+				2CDA67912525BC1300835AB1 /* ScPagePath.h */,
+				2CDA67A82525BC1300835AB1 /* ScPagePath.m */,
+				2CDA67B72525BC1300835AB1 /* ScPasswordTextFieldView.h */,
+				2CDA67972525BC1300835AB1 /* ScPasswordTextFieldView.m */,
+				2CDA67882525BC1300835AB1 /* ScRemainingTimeCulc.h */,
+				2CDA67B02525BC1300835AB1 /* ScRemainingTimeCulc.m */,
+				2CDA67AF2525BC1300835AB1 /* ScSystem.h */,
+				2CDA67A42525BC1300835AB1 /* ScSystemVersion.h */,
+				2CDA67982525BC1300835AB1 /* ScTapGestureRecognizer.h */,
+				2CDA67B62525BC1300835AB1 /* ScTapGestureRecognizer.m */,
+				2CDA67C02525BC1300835AB1 /* ScTreeHolder.h */,
+				2CDA679E2525BC1300835AB1 /* ScTreeHolder.m */,
+				2CDA67AB2525BC1300835AB1 /* ScUtil.h */,
+				2CDA678E2525BC1300835AB1 /* ScUtil.m */,
+				2CDA67872525BC1300835AB1 /* ScXmlApi.h */,
+				2CDA67B22525BC1300835AB1 /* ScXmlApi.m */,
+				2CDA679F2525BC1300835AB1 /* ScXmlApiHandler.h */,
+				2CDA67BF2525BC1300835AB1 /* ScXmlApiHandler.m */,
+				2CDA67952525BC1300835AB1 /* UIApplication+ScDimensions.h */,
+				2CDA67B82525BC1300835AB1 /* UIApplication+ScDimensions.m */,
+				2CDA67BD2525BC1300835AB1 /* UIBarButtonItem+ScBarButtonUtil.h */,
+				2CDA67A12525BC1300835AB1 /* UIBarButtonItem+ScBarButtonUtil.m */,
+				2CDA67B12525BC1300835AB1 /* UIBarButtonItem+ScCustomImage.h */,
+				2CDA67892525BC1300835AB1 /* UIBarButtonItem+ScCustomImage.m */,
+				2CDA67C12525BC1300835AB1 /* UIColor+ScHexString.h */,
+				2CDA679D2525BC1300835AB1 /* UIColor+ScHexString.m */,
+				2CDA67A22525BC1300835AB1 /* UIImage+ScUtil.h */,
 				2CDA67C72525BC1300835AB1 /* UIImage+ScUtil.m */,
+				2CDA67932525BC1300835AB1 /* UIView+ScViewUtil.h */,
+				2CDA67BB2525BC1300835AB1 /* UIView+ScViewUtil.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -574,6 +577,7 @@
 				2CDA68012525BC1300835AB1 /* ScBenchmark.m in Sources */,
 				2CDA67DD2525BC1300835AB1 /* ScPaddingLabel.m in Sources */,
 				2CDA67CB2525BC1300835AB1 /* NSURL+ScURLUtil.m in Sources */,
+				2CDA683D2526DE9000835AB1 /* NSURLSession.m in Sources */,
 				2CDA67E52525BC1300835AB1 /* ScNibCustomCell.m in Sources */,
 				2CDA67E92525BC1300835AB1 /* ScFileUtil.m in Sources */,
 				2CDA68032525BC1300835AB1 /* ScXmlApiHandler.m in Sources */,
@@ -763,6 +767,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sincere-co.Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Classes";
 			};
 			name = Debug;
 		};
@@ -781,6 +786,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sincere-co.Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Classes";
 			};
 			name = Release;
 		};
