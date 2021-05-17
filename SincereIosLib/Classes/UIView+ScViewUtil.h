@@ -11,5 +11,6 @@
 @interface UIView (ScViewUtil)
 
 - (UIViewController *)parentViewController;
+- (void)addConstraintsFitTo:(UIView *)view;
 
 @end

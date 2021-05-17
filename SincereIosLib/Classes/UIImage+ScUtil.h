@@ -30,5 +30,5 @@
 
 - (UIImage *)imageWithMask:(UIImage *)maskImage;
 
-
+- (UIImage *)imageByApplyingAlpha:(CGFloat) alpha;
 @end
